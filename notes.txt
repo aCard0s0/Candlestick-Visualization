@@ -1,0 +1,9 @@
+tradingview
+https://github.com/tradingview/charting-library-examples
+
+react tutorial
+https://www.youtube.com/watch?v=DLX62G4lc44
+
+React Stockcharts Docs
+https://github.com/rrag/react-stockcharts-examples2/tree/master/examples
+http://rrag.github.io/react-stockcharts/documentation.html
