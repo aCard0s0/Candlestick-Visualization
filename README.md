@@ -7,8 +7,8 @@ This project aims to create a client aplication to show TA charts by using `.jso
 
 ...
 
-## TODO :x: :heavy_check_mark:
-
+## TODO 
+:x: :heavy_check_mark:
   - Chart data by HTTP
   - Chart data by Websocket (missing server side)
   - Volume Chart
@@ -16,23 +16,20 @@ This project aims to create a client aplication to show TA charts by using `.jso
 
 | Technical Indicator | Status |
 | ------ | ------ |
-| MACD | :x: |
-| RSI | :x: |
-| Stochastic  | :x: |
-| ForceIndex | :x: |
-| ElderRay | :x: |
-| Elder Impulse| :x: |
-| Indicator | Status |
-
-<br>
+| MACD |:x:|
+| RSI |:x:|
+| Stochastic  |:x:|
+| ForceIndex |:x:|
+| ElderRay |:x:|
+| Elder Impulse|:x:|
 
 | Interactive Indicators | Status |
 | ------ | ------ |
-| Trendline | :x: |
-| Fibonacci Retracements | :x: |
-| Gann Fan | :x: |
-| Channel | :x: |
-| Linear regression channel | :x: |
+| Trendline |:x:|
+| Fibonacci Retracements |:x:|
+| Gann Fan |:x:|
+| Channel |:x:|
+| Linear regression channel |:x:|
 ## Scripts
 
 
