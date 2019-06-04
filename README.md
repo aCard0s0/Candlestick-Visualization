@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Candlestick Visualization
+Built with [ReactJS](https://github.com/facebook/react/), [d3](https://github.com/d3/d3) and [react-stockcharts](https://github.com/rrag/react-stockcharts)
 
-## Available Scripts
+This project aims to create a client aplication to show TA charts by using `.json` files as display configuration.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+...
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## TODO :x: :heavy_check_mark:
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+  - Chart data by HTTP
+  - Chart data by Websocket (missing server side)
+  - Volume Chart
+  - Demos .json files
 
-### `npm test`
+| Technical Indicator | Status |
+| ------ | ------ |
+| MACD | :x: |
+| RSI | :x: |
+| Stochastic  | :x: |
+| ForceIndex | :x: |
+| ElderRay | :x: |
+| Elder Impulse| :x: |
+| Indicator | Status |
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+| Interactive Indicators | Status |
+| ------ | ------ |
+| Trendline | :x: |
+| Fibonacci Retracements | :x: |
+| Gann Fan | :x: |
+| Channel | :x: |
+| Linear regression channel | :x: |
+## Scripts
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```sh
+$ npm start
+$ npm test
+$ npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Development server [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Dependencies
+Based on [react-stockcharts](https://github.com/rrag/react-stockcharts) library.
+Check the [examples](https://github.com/rrag/react-stockcharts-examples2) and [documentation](https://rrag.github.io/react-stockcharts/documentation.html).
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Useful link
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Code Splitting: https://facebook.github.io/create-react-app/docs/code-splitting<br>
+Analyzing the Bundle Size: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size<br>
+Making a Progressive Web App: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app<br>
+Advanced Configuration: https://facebook.github.io/create-react-app/docs/advanced-configuration<br>
+Deployment: https://facebook.github.io/create-react-app/docs/deployment<br>
+`npm run build` fails to minify: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-## Learn More
+## Tutorials & others
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Tradingview: https://github.com/tradingview/charting-library-examples <br>
+React: https://www.youtube.com/watch?v=DLX62G4lc44
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<script src="https://gist.github.com/rxaviers/7360908.js"></script>
