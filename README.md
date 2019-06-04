@@ -61,5 +61,3 @@ Deployment: https://facebook.github.io/create-react-app/docs/deployment<br>
 
 Tradingview: https://github.com/tradingview/charting-library-examples <br>
 React: https://www.youtube.com/watch?v=DLX62G4lc44
-
-<script src="https://gist.github.com/rxaviers/7360908.js"></script>
