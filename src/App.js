@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Charts from "./charts/Charts"
+import CandleStick from "./charts/CandleStick"
 
 function App() {
   return (
 
     <div>
       TODO: Panel
-		  <Charts />
+		  <CandleStick />
     </div>
   );
 }
